@@ -1,0 +1,34 @@
+Given this information about three charecters:
+characters = {
+    "Senda Bear": {
+        "Is the character human?": "no",
+        "Is the chaercter in an animated series?": "no",
+        "Does the character have an animal in their name?": "yes"
+    },
+    "Scooby-Doo": {
+        "Is the character human?": "no",
+        "Is the chaercter in an animated series?": "yes",
+        "Does the character have an animal in their name?": "no"
+    },
+    "Batman": {
+        "Is the character human?": "yes",
+        "Is the chaercter in an animated series?": "yes",
+        "Does the character have an animal in their name?": "yes"
+    }
+}
+Create a program that, prompting the user to think of any charecter, is able to guess what they were thinking.
+If the user responds in a way that does not correspond to any answer, print "error: thinking of a charecter not known, try again"
+and restart the game.
+
+Ex. 1
+Is the charecter human- no
+Is the charecter in an animated series- yes
+Does the charecter have an animal in their name- no
+You're thinking of Scooby-Doo!
+
+
+Ex. 2
+Is the charecter human- no
+Is the charecter in an animated series- yes
+Does the charecter have an animal in their name- yes
+error: thinking of a charecter not known, try again
